@@ -13,7 +13,7 @@
   max-width: 1000px;
 }
 
-.section1, .second, .third, .download, .hourly, .images, .afterImages{
+.section1, .second, .third, .download, .hourly, .images, .afterImages, .free, .how{
   border-bottom: 4px solid #EEE3C1;
   
 }
@@ -67,6 +67,10 @@
   padding-top: 213px;
   margin: 6px;
   width: 20%;
+}
+
+.how{
+  padding: 24px;
 }
 
 .section1{
@@ -129,6 +133,10 @@
   
 }
 
+.free{
+  padding: 63px;
+}
+
 .authors{
   padding-top: 226px;
   padding-bottom: 20px;
@@ -139,5 +147,4 @@
 
 .authors a{
   color: #D0021B;
-
 }
