@@ -4,8 +4,6 @@
   font-family: "Neue Haas Grotesk Text Bd", Helvetica, "Helvetica Neue", Arial, sans-serif;
   line-height: 1;
   font-weight: bold;
-  transition: .2s;
-  -webkit-font-smoothing: antialiased;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -13,7 +11,7 @@
   max-width: 1000px;
 }
 
-.section1, .second, .third, .download, .hourly, .images, .afterImages, .free, .how{
+.section1, .second, .third, .download, .hourly, .images, .afterImages, .free, .how, .H{
   border-bottom: 4px solid #EEE3C1;
   
 }
@@ -27,6 +25,9 @@
 
 .hourly{
   display: flex;
+}
+.display-1{
+  color: #D0021B;
 }
 
 .video{
@@ -67,6 +68,12 @@
   padding-top: 213px;
   margin: 6px;
   width: 20%;
+}
+
+.H{
+  display: flex;
+  justify-content: space-between;
+
 }
 
 .how{
@@ -125,6 +132,7 @@
 .third p{
   font-size: 27px;
 }
+
 
 .video, .second img{
   max-width: 33.3%;
